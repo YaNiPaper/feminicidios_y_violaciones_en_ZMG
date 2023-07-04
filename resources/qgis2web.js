@@ -37,20 +37,7 @@ layerSwitcher.hidePanel = function() {};
 layerSwitcher.showPanel();
 
 
-    var searchLayer = new SearchLayer({
-      layer: lyr_delitosvsmujeres_zmg_3,
-      colName: 'colonia',
-      zoom: 10,
-      collapsed: true,
-      map: map
-    });
-
-    map.addControl(searchLayer);
-    document.getElementsByClassName('search-layer')[0]
-    .getElementsByTagName('button')[0].className +=
-    ' fa fa-binoculars';
-    
-map.getView().fit([-11531068.891337, 2331370.030207, -11476797.204612, 2378260.968280], map.getSize());
+map.getView().fit([-11597438.242684, 2281535.562390, -11468794.244483, 2419225.779236], map.getSize());
 
 var NO_POPUP = 0
 var ALL_FIELDS = 1
